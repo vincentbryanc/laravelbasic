@@ -17,7 +17,6 @@ Route::get('/', function () {
     return redirect(route('login'));
 });
 
-// Route::get('api/cities', 'CityController@cities');
 Route::apiResource('api/cities', 'API\CityController');
 
 Auth::routes(['register'=>false]);
