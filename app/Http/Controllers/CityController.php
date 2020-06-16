@@ -107,10 +107,4 @@ class CityController extends Controller
     {
         //
     }
-
-    public function cities(Request $request) {
-        if($request->id)
-            return CityResource::collection(City::all()->where('id', $request->id));
-        return CityResource::collection(City::all());
-    }
 }
