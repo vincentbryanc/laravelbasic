@@ -28,7 +28,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon1"><i class="ti-email"></i></span>
                                     </div>
-                                    <input type="text" name="email" class="form-control form-control-lg" placeholder="Email"  value="{{ old('email') }}">
+                                    <input type="text" name="email" class="form-control" placeholder="Email"  value="{{ old('email') }}">
                                 </div>
                                 @error('email')
                                 <div role="alert" style="text-align: left; color: red; margin: -10px 0px 10px 0px;">
@@ -39,7 +39,7 @@
                                     <div class="input-group-prepend">
                                         <span class="input-group-text" id="basic-addon2"><i class="ti-lock"></i></span>
                                     </div>
-                                    <input type="password" name="password" class="form-control form-control-lg" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                                    <input type="password" name="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
                                 </div>
                                 @error('password')
                                 <div role="alert" style="text-align: left; color: red; margin: -10px 0px 10px 0px;">
@@ -48,7 +48,7 @@
                                 @enderror
                                 <div class="form-group text-center">
                                     <div class="col-xs-12 pb-3">
-                                        <button class="btn btn-block btn-lg btn-info" style="background-color:#1b5e21;color:#ffffff;" type="submit">Login</button>
+                                        <button class="btn btn-block btn-info" style="background-color:#1b5e21;color:#ffffff;" type="submit">Login</button>
                                     </div>
                                 </div>
                             </form>

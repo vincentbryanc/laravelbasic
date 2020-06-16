@@ -21,5 +21,6 @@ Route::get('api/cities', 'CityController@cities');
 
 Auth::routes(['register'=>false]);
 
-Route::resource('/cities', 'CityController');
-Route::get('/users', 'UserController@index')->name('users');
+Route::resource('cities', 'CityController');
+Route::resource('users', 'UserController');
+Route::post('users/update', 'UserController@update')->name('user.update');

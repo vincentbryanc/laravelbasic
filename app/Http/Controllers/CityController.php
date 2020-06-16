@@ -16,8 +16,6 @@ class CityController extends Controller
      */
     public function index()
     {
-        /*$cities = City::paginate(10);
-        return view('backend.cities', ['cities' => $cities]);*/
         if(request()->ajax()) {
             return datatables()->of(City::all())
             ->make(true);
