@@ -7,7 +7,7 @@
                     <img src="{{ URL::asset('assets/images/logos/logo-icon.png') }}" alt="GEC-logo" class="dark-logo" />
                 </b>
                 <span class="logo-text">
-                    <h5 class="font-medium text-uppercase mb-0">Sanctum</h5>
+                    <h5 class="font-medium text-uppercase mb-0">Laravel Basic Concept</h5>
                 </span>
             </a>
             <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
